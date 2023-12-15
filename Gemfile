@@ -17,6 +17,8 @@ gem "jbuilder"
 gem "puma"   
 gem "bootsnap", require: false
 gem "sqlite3"
+gem "active_storage_validations"
+gem "image_processing"
 
 group :production do
   gem "pg"
